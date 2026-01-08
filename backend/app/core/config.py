@@ -15,7 +15,13 @@ class Settings(BaseSettings):
     api_v1_prefix: str = "/api/v1"
 
     # CORS
-    cors_origins: list[str] = ["http://localhost:3000", "http://localhost:5173"]
+    cors_origins: list[str] = [
+        "http://localhost:3000",
+        "http://localhost:5173",
+        "http://90.156.209.245:3000",
+        "http://90.156.209.245:5173",
+        "*"  # Allow all origins for development
+    ]
 
     # ML Models
     models_dir: Path = Path("app/ml/models")
