@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom'
-import { Beaker, Target, BookOpen, Settings } from 'lucide-react'
+import { Beaker, Target, BookOpen } from 'lucide-react'
 import PredictPage from './pages/PredictPage'
 import OptimizePage from './pages/OptimizePage'
 import ReferencePage from './pages/ReferencePage'
