@@ -1,6 +1,6 @@
 # AlloyPredictor
 
-![CI](https://github.com/Shchetnikovoff/alloy-predictor/workflows/CI/badge.svg)
+![CI](https://github.com/Shchetnikovoff/auto_detect/workflows/CI/badge.svg)
 ![Python](https://img.shields.io/badge/python-3.11-blue.svg)
 ![React](https://img.shields.io/badge/react-18-61dafb.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
